@@ -1,11 +1,11 @@
 class Airport {
-	constructor(name) {
+	constructor(name, planes = []) {
 		this.name = name
-		this.planes = //what would be the best datatype?
+		this.planes = planes;
 	}
 
 	addPlane(plane) {
-		//use an array method
+		this.planes.push(plane);
 	}
 }
 
